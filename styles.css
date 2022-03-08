@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main, header {
+  display: block;
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.imageHolder {
+  width: 100%;
+  margin: 3rem auto;
+  padding: 3rem 0px;
+}
+
+.imageHolder img {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  display: block;
+}
+
+.imageHolder figcaption {
+  margin-top: 1rem;
+}
+
+footer {
+  background: #2D5D6C;
+  color: #ffffff;
+  text-align:center;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.darkMode {
+  color: yellow;
+  background: black;
+}
+
+.darkMode footer {
+  background: yellow;
+  color: black;
+}
+
+@media (min-width: 655px) {
+
+}
